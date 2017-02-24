@@ -49,7 +49,7 @@ namespace :deploy do
 	before :starting,     :check_revision
   before :starting,     :update_jekkyll
 	after  :finishing,    :cleanup
-  after  :finishing,    :create_symlinks
-  after  :finishing,    :fix_permissions
+  # after  :finishing,    :create_symlinks
+  # after  :finishing,    :fix_permissions
 
 end

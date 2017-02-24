@@ -141,3 +141,1518 @@ and the repository exists.
   INFO ---------------------------------------------------------------------------
   INFO START 2017-02-24 16:02:05 -0600 cap production deploy
   INFO ---------------------------------------------------------------------------
+  INFO [bf6893ae] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [bf6893ae] Command: /usr/bin/env mkdir -p /tmp
+  INFO [bf6893ae] Finished in 0.650 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [39c730fe] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [39c730fe] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [39c730fe] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [33a9ab1a] Running /usr/bin/env git ls-remote  HEAD as deploy@45.76.23.120
+ DEBUG [33a9ab1a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [33a9ab1a] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [33a9ab1a] 	
+ DEBUG [33a9ab1a] 	fatal: Could not read from remote repository.
+ DEBUG [33a9ab1a] 	
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:11:30 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3242f76d] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [3242f76d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3242f76d] Finished in 0.644 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [3ac449ef] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [3ac449ef] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [3ac449ef] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [2dc30d90] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [2dc30d90] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [2dc30d90] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [2dc30d90] 	
+ DEBUG [2dc30d90] 	Permission denied (publickey).
+ DEBUG [2dc30d90] 	
+ DEBUG [2dc30d90] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:13:42 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [88922771] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [88922771] Command: /usr/bin/env mkdir -p /tmp
+  INFO [88922771] Finished in 0.618 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [887ef6d4] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [887ef6d4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [887ef6d4] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [e41e3912] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [e41e3912] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [e41e3912] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [e41e3912] 	
+ DEBUG [e41e3912] 	Permission denied (publickey).
+ DEBUG [e41e3912] 	
+ DEBUG [e41e3912] 	fatal: Could not read from remote repository.
+ DEBUG [e41e3912] 	
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:21:55 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9b1b20d3] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [9b1b20d3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9b1b20d3] Finished in 0.737 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [47fc6541] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [47fc6541] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [47fc6541] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [445fe0e3] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [445fe0e3] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [445fe0e3] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [445fe0e3] 		
+ DEBUG [445fe0e3] 	HEAD
+  INFO [445fe0e3] Finished in 1.071 seconds with exit status 0 (successful).
+  INFO [438b3ce4] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [438b3ce4] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [438b3ce4] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [7677bd04] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [7677bd04] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [7677bd04] Finished in 0.084 seconds with exit status 1 (failed).
+ DEBUG [0f5923be] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [0f5923be] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [0f5923be] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [80d9b7f2] Running if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [80d9b7f2] Command: if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi
+ DEBUG [80d9b7f2] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [7d363a14] Running /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo as deploy@45.76.23.120
+ DEBUG [7d363a14] Command: cd /var/www/jeremydwayne && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo )
+ DEBUG [7d363a14] 	Cloning into bare repository '/var/www/jeremydwayne/repo'...
+ DEBUG [7d363a14] 	
+ DEBUG [7d363a14] 	/var/www/jeremydwayne/repo: Permission denied
+ DEBUG [7d363a14] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:49:05 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3b49f8f4] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [3b49f8f4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3b49f8f4] Finished in 1.616 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [29d02108] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [29d02108] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [29d02108] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [0dcfab4d] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [0dcfab4d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [0dcfab4d] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [0dcfab4d] 		
+ DEBUG [0dcfab4d] 	HEAD
+  INFO [0dcfab4d] Finished in 1.158 seconds with exit status 0 (successful).
+  INFO [a0dc2b22] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [a0dc2b22] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [a0dc2b22] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [0e7f31c6] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [0e7f31c6] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [0e7f31c6] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [4c2f4c85] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [4c2f4c85] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [4c2f4c85] Finished in 0.086 seconds with exit status 1 (failed).
+ DEBUG [f5b16eb1] Running if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [f5b16eb1] Command: if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi
+ DEBUG [f5b16eb1] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [9541878a] Running /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo as deploy@45.76.23.120
+ DEBUG [9541878a] Command: cd /var/www/jeremydwayne && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo )
+ DEBUG [9541878a] 	Cloning into bare repository '/var/www/jeremydwayne/repo'...
+ DEBUG [9541878a] 	
+ DEBUG [9541878a] 	/var/www/jeremydwayne/repo: Permission denied
+ DEBUG [9541878a] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:51:03 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3f35f758] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [3f35f758] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3f35f758] Finished in 0.661 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [f2d8d8ab] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [f2d8d8ab] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [f2d8d8ab] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [da62d2ad] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [da62d2ad] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [da62d2ad] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [da62d2ad] 		
+ DEBUG [da62d2ad] 	HEAD
+ DEBUG [da62d2ad] 	
+  INFO [da62d2ad] Finished in 1.082 seconds with exit status 0 (successful).
+  INFO [67400787] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [67400787] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [67400787] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [5c0287a1] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [5c0287a1] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [5c0287a1] Finished in 0.077 seconds with exit status 1 (failed).
+ DEBUG [83e057b8] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [83e057b8] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [83e057b8] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [37d63b86] Running if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [37d63b86] Command: if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi
+ DEBUG [37d63b86] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [7821b9d5] Running /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo as deploy@45.76.23.120
+ DEBUG [7821b9d5] Command: cd /var/www/jeremydwayne && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo )
+ DEBUG [7821b9d5] 	Cloning into bare repository '/var/www/jeremydwayne/repo'...
+ DEBUG [7821b9d5] 	
+ DEBUG [7821b9d5] 	/var/www/jeremydwayne/repo: Permission denied
+ DEBUG [7821b9d5] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:51:38 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9fb38d75] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [9fb38d75] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9fb38d75] Finished in 0.585 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [1fc6a9fc] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [1fc6a9fc] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [1fc6a9fc] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [b6a07815] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [b6a07815] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [b6a07815] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [b6a07815] 		
+ DEBUG [b6a07815] 	HEAD
+  INFO [b6a07815] Finished in 1.102 seconds with exit status 0 (successful).
+  INFO [54de383a] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [54de383a] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [54de383a] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [f2c1b641] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [f2c1b641] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [f2c1b641] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [6ff68e1a] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [6ff68e1a] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [6ff68e1a] Finished in 0.082 seconds with exit status 1 (failed).
+ DEBUG [65a77a75] Running if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [65a77a75] Command: if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi
+ DEBUG [65a77a75] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [ac8c086a] Running /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo as deploy@45.76.23.120
+ DEBUG [ac8c086a] Command: cd /var/www/jeremydwayne && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo )
+ DEBUG [ac8c086a] 	Cloning into bare repository '/var/www/jeremydwayne/repo'...
+ DEBUG [ac8c086a] 	
+ DEBUG [ac8c086a] 	/var/www/jeremydwayne/repo/refs: Permission denied
+ DEBUG [ac8c086a] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:52:11 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [83070edf] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [83070edf] Command: /usr/bin/env mkdir -p /tmp
+  INFO [83070edf] Finished in 0.680 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [590ef107] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [590ef107] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [590ef107] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [88733b85] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [88733b85] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [88733b85] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [88733b85] 		
+ DEBUG [88733b85] 	HEAD
+  INFO [88733b85] Finished in 1.124 seconds with exit status 0 (successful).
+  INFO [9e289eee] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [9e289eee] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [9e289eee] Finished in 0.092 seconds with exit status 0 (successful).
+ DEBUG [5aae0458] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [5aae0458] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [5aae0458] Finished in 0.101 seconds with exit status 1 (failed).
+ DEBUG [b66e66d5] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [b66e66d5] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [b66e66d5] Finished in 0.094 seconds with exit status 1 (failed).
+ DEBUG [d112a070] Running if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [d112a070] Command: if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi
+ DEBUG [d112a070] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [962e0741] Running /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo as deploy@45.76.23.120
+ DEBUG [962e0741] Command: cd /var/www/jeremydwayne && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo )
+ DEBUG [962e0741] 	Cloning into bare repository '/var/www/jeremydwayne/repo'...
+ DEBUG [962e0741] 	
+ DEBUG [962e0741] 	remote: Counting objects: 6604, done.[K
+ DEBUG [962e0741] 	
+ DEBUG [962e0741] 	remote: Compressing objects:   0% (1/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   1% (46/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   2% (91/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   3% (137/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   4% (182/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   5% (227/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   6% (273/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   7% (318/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   8% (364/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:   9% (409/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  10% (454/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  11% (500/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  12% (545/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  13% (591/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  14% (636/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  15% (681/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  16% (727/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  17% (772/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  18% (818/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  19% (863/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  20% (908/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  21% (954/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  22% (999/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  23% (1045/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  24% (1090/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  25% (1135/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  26% (1181/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  27% (1226/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  28% (1272/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  29% (1317/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  30% (1362/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  31% (1408/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  32% (1453/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  33% (1499/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  34% (1544/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  35% (1589/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  36% (1635/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  37% (1680/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  38% (1726/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  39% (1771/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  40% (1816/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  41% (1862/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  42% (1907/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  43% (1953/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  44% (1998/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  45% (2043/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  46% (2089/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  47% (2134/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  48% (2180/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  49% (2225/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  50% (2270/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  51% (2316/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  52% (2361/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  53% (2407/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  54% (2452/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  55% (2497/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  56% (2543/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  57% (2588/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  58% (2634/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  59% (2679/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  60% (2724/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  61% (2770/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  62% (2815/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  63% (2861/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  64% (2906/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  65% (2951/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  66% (2997/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  67% (3042/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  68% (3088/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  69% (3133/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  70% (3178/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  71% (3224/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  72% (3269/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  73% (3315/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  74% (3360/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  75% (3405/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  76% (3451/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  77% (3496/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  78% (3542/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  79% (3587/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  80% (3632/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  81% (3678/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  82% (3723/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  83% (3769/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  84% (3814/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  85% (3859/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  86% (3905/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  87% (3950/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  88% (3996/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  89% (4041/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  90% (4086/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  91% (4132/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  92% (4177/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  93% (4223/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  94% (4268/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  95% (4313/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  96% (4359/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  97% (4404/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  98% (4450/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects:  99% (4495/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects: 100% (4540/4540)   [K
+ DEBUG [962e0741] 	remote: Compressing objects: 100% (4540/4540), done.[K
+ DEBUG [962e0741] 	
+ DEBUG [962e0741] 	Receiving objects:   0% (1/6604)   
+ DEBUG [962e0741] 	Receiving objects:   1% (67/6604)   
+ DEBUG [962e0741] 	Receiving objects:   2% (133/6604)   
+ DEBUG [962e0741] 	Receiving objects:   3% (199/6604)   
+ DEBUG [962e0741] 	Receiving objects:   4% (265/6604)   
+ DEBUG [962e0741] 	Receiving objects:   5% (331/6604)   
+ DEBUG [962e0741] 	Receiving objects:   6% (397/6604)   
+ DEBUG [962e0741] 	Receiving objects:   7% (463/6604)   
+ DEBUG [962e0741] 	Receiving objects:   8% (529/6604)   
+ DEBUG [962e0741] 	Receiving objects:   9% (595/6604)   
+ DEBUG [962e0741] 	Receiving objects:  10% (661/6604)   
+ DEBUG [962e0741] 	Receiving objects:  11% (727/6604)   
+ DEBUG [962e0741] 	Receiving objects:  12% (793/6604)   
+ DEBUG [962e0741] 	Receiving objects:  13% (859/6604)   
+ DEBUG [962e0741] 	Receiving objects:  14% (925/6604)   
+ DEBUG [962e0741] 	Receiving objects:  15% (991/6604)   
+ DEBUG [962e0741] 	Receiving objects:  16% (1057/6604)   
+ DEBUG [962e0741] 	Receiving objects:  17% (1123/6604)   
+ DEBUG [962e0741] 	Receiving objects:  18% (1189/6604)   
+ DEBUG [962e0741] 	Receiving objects:  19% (1255/6604)   
+ DEBUG [962e0741] 	Receiving objects:  20% (1321/6604)   
+ DEBUG [962e0741] 	Receiving objects:  21% (1387/6604)   
+ DEBUG [962e0741] 	Receiving objects:  22% (1453/6604)   
+ DEBUG [962e0741] 	Receiving objects:  23% (1519/6604)   
+ DEBUG [962e0741] 	Receiving objects:  24% (1585/6604)   
+ DEBUG [962e0741] 	Receiving objects:  25% (1651/6604)   
+ DEBUG [962e0741] 	Receiving objects:  26% (1718/6604)   
+ DEBUG [962e0741] 	Receiving objects:  27% (1784/6604)   
+ DEBUG [962e0741] 	Receiving objects:  28% (1850/6604)   
+ DEBUG [962e0741] 	Receiving objects:  29% (1916/6604)   
+ DEBUG [962e0741] 	Receiving objects:  30% (1982/6604)   
+ DEBUG [962e0741] 	Receiving objects:  31% (2048/6604)   
+ DEBUG [962e0741] 	Receiving objects:  32% (2114/6604)   
+ DEBUG [962e0741] 	Receiving objects:  33% (2180/6604)   
+ DEBUG [962e0741] 	Receiving objects:  34% (2246/6604)   
+ DEBUG [962e0741] 	Receiving objects:  35% (2312/6604)   
+ DEBUG [962e0741] 	Receiving objects:  36% (2378/6604)   
+ DEBUG [962e0741] 	Receiving objects:  37% (2444/6604)   
+ DEBUG [962e0741] 	Receiving objects:  38% (2510/6604)   
+ DEBUG [962e0741] 	Receiving objects:  39% (2576/6604)   
+ DEBUG [962e0741] 	Receiving objects:  40% (2642/6604)   
+ DEBUG [962e0741] 	Receiving objects:  41% (2708/6604)   
+ DEBUG [962e0741] 	Receiving objects:  42% (2774/6604)   
+ DEBUG [962e0741] 	Receiving objects:  43% (2840/6604)   
+ DEBUG [962e0741] 	Receiving objects:  44% (2906/6604)   
+ DEBUG [962e0741] 	Receiving objects:  45% (2972/6604)   
+ DEBUG [962e0741] 	Receiving objects:  46% (3038/6604)   
+ DEBUG [962e0741] 	Receiving objects:  47% (3104/6604)   
+ DEBUG [962e0741] 	Receiving objects:  48% (3170/6604)   
+ DEBUG [962e0741] 	Receiving objects:  49% (3236/6604)   
+ DEBUG [962e0741] 	Receiving objects:  50% (3302/6604)   
+ DEBUG [962e0741] 	Receiving objects:  51% (3369/6604)   
+ DEBUG [962e0741] 	Receiving objects:  52% (3435/6604)   
+ DEBUG [962e0741] 	Receiving objects:  53% (3501/6604)   
+ DEBUG [962e0741] 	Receiving objects:  54% (3567/6604)   
+ DEBUG [962e0741] 	Receiving objects:  55% (3633/6604)   
+ DEBUG [962e0741] 	Receiving objects:  56% (3699/6604)   
+ DEBUG [962e0741] 	Receiving objects:  57% (3765/6604)   
+ DEBUG [962e0741] 	Receiving objects:  58% (3831/6604)   
+ DEBUG [962e0741] 	Receiving objects:  59% (3897/6604)   
+ DEBUG [962e0741] 	Receiving objects:  60% (3963/6604)   
+ DEBUG [962e0741] 	Receiving objects:  61% (4029/6604)   
+ DEBUG [962e0741] 	Receiving objects:  62% (4095/6604)   
+ DEBUG [962e0741] 	Receiving objects:  63% (4161/6604)   
+ DEBUG [962e0741] 	Receiving objects:  64% (4227/6604)   
+ DEBUG [962e0741] 	Receiving objects:  65% (4293/6604)   
+ DEBUG [962e0741] 	Receiving objects:  66% (4359/6604)   
+ DEBUG [962e0741] 	Receiving objects:  67% (4425/6604)   
+ DEBUG [962e0741] 	Receiving objects:  68% (4491/6604)   
+ DEBUG [962e0741] 	Receiving objects:  69% (4557/6604)   
+ DEBUG [962e0741] 	Receiving objects:  70% (4623/6604)   
+ DEBUG [962e0741] 	Receiving objects:  71% (4689/6604)   
+ DEBUG [962e0741] 	Receiving objects:  72% (4755/6604)   
+ DEBUG [962e0741] 	Receiving objects:  73% (4821/6604)   
+ DEBUG [962e0741] 	Receiving objects:  74% (4887/6604)   
+ DEBUG [962e0741] 	Receiving objects:  75% (4953/6604)   
+ DEBUG [962e0741] 	Receiving objects:  76% (5020/6604)   
+ DEBUG [962e0741] 	Receiving objects:  77% (5086/6604)   
+ DEBUG [962e0741] 	Receiving objects:  78% (5152/6604)   
+ DEBUG [962e0741] 	Receiving objects:  79% (5218/6604)   
+ DEBUG [962e0741] 	Receiving objects:  80% (5284/6604)   
+ DEBUG [962e0741] 	Receiving objects:  81% (5350/6604)   
+ DEBUG [962e0741] 	Receiving objects:  82% (5416/6604)   
+ DEBUG [962e0741] 	Receiving objects:  83% (5482/6604)   
+ DEBUG [962e0741] 	Receiving objects:  84% (5548/6604)   
+ DEBUG [962e0741] 	Receiving objects:  85% (5614/6604)   
+ DEBUG [962e0741] 	Receiving objects:  86% (5680/6604)   
+ DEBUG [962e0741] 	Receiving objects:  87% (5746/6604)   
+ DEBUG [962e0741] 	Receiving objects:  88% (5812/6604)   
+ DEBUG [962e0741] 	Receiving objects:  89% (5878/6604)   
+ DEBUG [962e0741] 	Receiving objects:  90% (5944/6604)   
+ DEBUG [962e0741] 	Receiving objects:  91% (6010/6604)   
+ DEBUG [962e0741] 	Receiving objects:  92% (6076/6604)   
+ DEBUG [962e0741] 	Receiving objects:  93% (6142/6604)   
+ DEBUG [962e0741] 	Receiving objects:  94% (6208/6604)   
+ DEBUG [962e0741] 	Receiving objects:  95% (6274/6604)   
+ DEBUG [962e0741] 	Receiving objects:  96% (6340/6604)   
+ DEBUG [962e0741] 	Receiving objects:  97% (6406/6604)   
+ DEBUG [962e0741] 	Receiving objects:  98% (6472/6604)   
+ DEBUG [962e0741] 	remote: Total 6604 (delta 1635), reused 6604 (delta 1635), pack-reused 0[K
+ DEBUG [962e0741] 	
+ DEBUG [962e0741] 	Receiving objects:  99% (6538/6604)   
+ DEBUG [962e0741] 	Receiving objects: 100% (6604/6604)   
+ DEBUG [962e0741] 	Receiving objects: 100% (6604/6604), 6.80 MiB | 0 bytes/s, done.
+ DEBUG [962e0741] 	
+ DEBUG [962e0741] 	Resolving deltas:   0% (0/1635)   
+ DEBUG [962e0741] 	Resolving deltas:   1% (26/1635)   
+ DEBUG [962e0741] 	Resolving deltas:   6% (103/1635)   
+ DEBUG [962e0741] 	Resolving deltas:   7% (127/1635)   
+ DEBUG [962e0741] 	Resolving deltas:   9% (151/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  10% (164/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  11% (180/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  12% (198/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  13% (215/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  14% (239/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  15% (251/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  16% (270/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  17% (280/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  18% (303/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  19% (312/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  20% (340/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  22% (375/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  23% (384/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  25% (417/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  27% (447/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  28% (462/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  30% (498/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  31% (513/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  32% (524/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  33% (552/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  34% (564/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  35% (573/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  36% (595/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  37% (606/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  38% (622/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  39% (641/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  40% (654/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  41% (671/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  42% (687/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  43% (705/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  44% (725/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  45% (736/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  46% (753/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  47% (769/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  48% (785/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  49% (802/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  50% (818/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  51% (834/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  52% (852/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  53% (867/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  54% (883/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  55% (900/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  56% (916/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  57% (933/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  58% (949/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  59% (965/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  60% (982/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  61% (998/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  62% (1014/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  63% (1031/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  64% (1047/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  65% (1064/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  66% (1080/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  67% (1096/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  68% (1112/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  69% (1129/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  70% (1145/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  71% (1161/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  72% (1179/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  73% (1196/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  74% (1212/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  75% (1227/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  76% (1244/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  77% (1259/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  78% (1276/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  79% (1292/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  80% (1308/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  81% (1325/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  82% (1348/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  83% (1370/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  84% (1377/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  85% (1393/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  86% (1408/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  87% (1423/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  88% (1439/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  89% (1457/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  90% (1472/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  91% (1489/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  92% (1507/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  93% (1521/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  94% (1537/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  95% (1554/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  96% (1570/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  97% (1586/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  98% (1603/1635)   
+ DEBUG [962e0741] 	Resolving deltas:  99% (1619/1635)   
+ DEBUG [962e0741] 	Resolving deltas: 100% (1635/1635)   
+ DEBUG [962e0741] 	Resolving deltas: 100% (1635/1635), done.
+ DEBUG [962e0741] 	
+ DEBUG [962e0741] 	Checking connectivity... 
+ DEBUG [962e0741] 	done.
+ DEBUG [962e0741] 	
+  INFO [962e0741] Finished in 1.240 seconds with exit status 0 (successful).
+ DEBUG [21344e03] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [21344e03] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [21344e03] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [e18a24f5] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [e18a24f5] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [e18a24f5] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO [863dfd59] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [863dfd59] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [863dfd59] 	Fetching origin
+ DEBUG [863dfd59] 	
+  INFO [863dfd59] Finished in 0.763 seconds with exit status 0 (successful).
+ DEBUG [1d2037a3] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [1d2037a3] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [1d2037a3] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [6a89b56b] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224225215 as deploy@45.76.23.120
+ DEBUG [6a89b56b] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224225215 )
+ DEBUG [6a89b56b] 	mkdir: 
+ DEBUG [6a89b56b] 	cannot create directory ‘/var/www/jeremydwayne/releases/20170224225215’
+ DEBUG [6a89b56b] 	: Permission denied
+ DEBUG [6a89b56b] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:52:45 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [21852b40] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [21852b40] Command: /usr/bin/env mkdir -p /tmp
+  INFO [21852b40] Finished in 0.628 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [36d8f7e2] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [36d8f7e2] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [36d8f7e2] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [b2f3a8be] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [b2f3a8be] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [b2f3a8be] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [b2f3a8be] 		
+ DEBUG [b2f3a8be] 	HEAD
+  INFO [b2f3a8be] Finished in 1.107 seconds with exit status 0 (successful).
+  INFO [56a5b5d2] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [56a5b5d2] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [56a5b5d2] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [c93d0663] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [c93d0663] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [c93d0663] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [b420185b] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [b420185b] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [b420185b] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/jeremydwayne/repo
+ DEBUG [73d1029a] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [73d1029a] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [73d1029a] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [5d271af7] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [5d271af7] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [5d271af7] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [ad391427] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [ad391427] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [ad391427] 	Fetching origin
+ DEBUG [ad391427] 	
+  INFO [ad391427] Finished in 0.593 seconds with exit status 0 (successful).
+ DEBUG [83a38919] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [83a38919] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [83a38919] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [d7addd7a] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224225249 as deploy@45.76.23.120
+ DEBUG [d7addd7a] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224225249 )
+  INFO [d7addd7a] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [6a6b2678] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224225249 as deploy@45.76.23.120
+ DEBUG [6a6b2678] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224225249 )
+  INFO [6a6b2678] Finished in 0.756 seconds with exit status 0 (successful).
+ DEBUG [e9069d4d] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [e9069d4d] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [e9069d4d] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [b8772983] Running /usr/bin/env git rev-list --max-count=1 master as deploy@45.76.23.120
+ DEBUG [b8772983] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b8772983] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [b8772983] 	
+ DEBUG [b8772983] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [321ba6b5] Running if test ! -d /var/www/jeremydwayne/releases/20170224225249; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224225249'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [321ba6b5] Command: if test ! -d /var/www/jeremydwayne/releases/20170224225249; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224225249'" 1>&2; false; fi
+ DEBUG [321ba6b5] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [8a6e77e5] Running /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION as deploy@45.76.23.120
+ DEBUG [8a6e77e5] Command: cd /var/www/jeremydwayne/releases/20170224225249 && /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION
+  INFO [8a6e77e5] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [30c8caf6] Running /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224225249 /var/www/jeremydwayne/releases/current as deploy@45.76.23.120
+ DEBUG [30c8caf6] Command: /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224225249 /var/www/jeremydwayne/releases/current
+  INFO [30c8caf6] Finished in 0.078 seconds with exit status 0 (successful).
+  INFO [ad01b79f] Running /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne as deploy@45.76.23.120
+ DEBUG [ad01b79f] Command: /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne
+ DEBUG [ad01b79f] 	mv: replace '/var/www/jeremydwayne/current', overriding mode 0755 (rwxr-xr-x)? 
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:54:26 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e4ef54a3] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [e4ef54a3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e4ef54a3] Finished in 0.622 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [93ad8f95] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [93ad8f95] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [93ad8f95] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [7326eae4] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [7326eae4] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [7326eae4] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [7326eae4] 		HEAD
+  INFO [7326eae4] Finished in 1.058 seconds with exit status 0 (successful).
+  INFO [9f7b4ba9] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [9f7b4ba9] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [9f7b4ba9] Finished in 0.083 seconds with exit status 0 (successful).
+ DEBUG [950a5c6d] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [950a5c6d] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [950a5c6d] Finished in 0.081 seconds with exit status 1 (failed).
+ DEBUG [f37e1713] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [f37e1713] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [f37e1713] Finished in 0.093 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/jeremydwayne/repo
+ DEBUG [cbae723c] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [cbae723c] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [cbae723c] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [0b0b5151] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [0b0b5151] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [0b0b5151] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [145da36c] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [145da36c] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [145da36c] 	Fetching origin
+ DEBUG [145da36c] 	
+  INFO [145da36c] Finished in 0.677 seconds with exit status 0 (successful).
+ DEBUG [73ec8feb] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [73ec8feb] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [73ec8feb] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [a54f374f] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224225430 as deploy@45.76.23.120
+ DEBUG [a54f374f] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224225430 )
+  INFO [a54f374f] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [4c6f4a38] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224225430 as deploy@45.76.23.120
+ DEBUG [4c6f4a38] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224225430 )
+  INFO [4c6f4a38] Finished in 0.756 seconds with exit status 0 (successful).
+ DEBUG [7d6ffb1a] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [7d6ffb1a] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [7d6ffb1a] Finished in 0.108 seconds with exit status 0 (successful).
+ DEBUG [ff27ef71] Running /usr/bin/env git rev-list --max-count=1 master as deploy@45.76.23.120
+ DEBUG [ff27ef71] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [ff27ef71] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [ff27ef71] 	
+ DEBUG [ff27ef71] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [5db87241] Running if test ! -d /var/www/jeremydwayne/releases/20170224225430; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224225430'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [5db87241] Command: if test ! -d /var/www/jeremydwayne/releases/20170224225430; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224225430'" 1>&2; false; fi
+ DEBUG [5db87241] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [42640ad4] Running /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION as deploy@45.76.23.120
+ DEBUG [42640ad4] Command: cd /var/www/jeremydwayne/releases/20170224225430 && /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION
+  INFO [42640ad4] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [f8a72993] Running /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224225430 /var/www/jeremydwayne/releases/current as deploy@45.76.23.120
+ DEBUG [f8a72993] Command: /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224225430 /var/www/jeremydwayne/releases/current
+  INFO [f8a72993] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [eb5d4a21] Running /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne as deploy@45.76.23.120
+ DEBUG [eb5d4a21] Command: /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne
+ DEBUG [eb5d4a21] 	mv: 
+ DEBUG [eb5d4a21] 	cannot overwrite directory '/var/www/jeremydwayne/current' with non-directory
+ DEBUG [eb5d4a21] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:55:34 -0600 cap production deploy:clean
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:55:39 -0600 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:55:43 -0600 cap production deploy:cold
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:58:38 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7709b005] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [7709b005] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7709b005] Finished in 0.645 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [97898794] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [97898794] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [97898794] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [1f4707ba] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [1f4707ba] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [1f4707ba] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [1f4707ba] 		
+ DEBUG [1f4707ba] 	HEAD
+ DEBUG [1f4707ba] 	
+  INFO [1f4707ba] Finished in 1.210 seconds with exit status 0 (successful).
+  INFO [4b27d6fa] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [4b27d6fa] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [4b27d6fa] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [9c6e984c] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [9c6e984c] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [9c6e984c] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [33e809ab] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [33e809ab] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [33e809ab] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/jeremydwayne/repo
+ DEBUG [e84b8702] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [e84b8702] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [e84b8702] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [18ba202a] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [18ba202a] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [18ba202a] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [54c4f572] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [54c4f572] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [54c4f572] 	Fetching origin
+ DEBUG [54c4f572] 	
+  INFO [54c4f572] Finished in 0.601 seconds with exit status 0 (successful).
+ DEBUG [a671fa22] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [a671fa22] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [a671fa22] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [f4694ae9] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224225842 as deploy@45.76.23.120
+ DEBUG [f4694ae9] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224225842 )
+  INFO [f4694ae9] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [cfd27fff] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224225842 as deploy@45.76.23.120
+ DEBUG [cfd27fff] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224225842 )
+  INFO [cfd27fff] Finished in 0.857 seconds with exit status 0 (successful).
+ DEBUG [9a43d3b5] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [9a43d3b5] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [9a43d3b5] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [78b5e7a6] Running /usr/bin/env git rev-list --max-count=1 master as deploy@45.76.23.120
+ DEBUG [78b5e7a6] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [78b5e7a6] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [78b5e7a6] 	
+ DEBUG [78b5e7a6] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [05bcc7e2] Running if test ! -d /var/www/jeremydwayne/releases/20170224225842; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224225842'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [05bcc7e2] Command: if test ! -d /var/www/jeremydwayne/releases/20170224225842; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224225842'" 1>&2; false; fi
+ DEBUG [05bcc7e2] Finished in 0.092 seconds with exit status 0 (successful).
+  INFO [78403112] Running /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION as deploy@45.76.23.120
+ DEBUG [78403112] Command: cd /var/www/jeremydwayne/releases/20170224225842 && /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION
+  INFO [78403112] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [41538af4] Running /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224225842 /var/www/jeremydwayne/releases/current as deploy@45.76.23.120
+ DEBUG [41538af4] Command: /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224225842 /var/www/jeremydwayne/releases/current
+  INFO [41538af4] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [0a8f0cd4] Running /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne as deploy@45.76.23.120
+ DEBUG [0a8f0cd4] Command: /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne
+ DEBUG [0a8f0cd4] 	mv: 
+ DEBUG [0a8f0cd4] 	cannot overwrite directory '/var/www/jeremydwayne/current' with non-directory
+ DEBUG [0a8f0cd4] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 17:00:10 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2a2b8f30] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [2a2b8f30] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2a2b8f30] Finished in 0.633 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [1fe5b483] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [1fe5b483] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [1fe5b483] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [9b9e2420] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [9b9e2420] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [9b9e2420] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [9b9e2420] 		
+ DEBUG [9b9e2420] 	HEAD
+  INFO [9b9e2420] Finished in 1.121 seconds with exit status 0 (successful).
+  INFO [7be1f677] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [7be1f677] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [7be1f677] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [16c796aa] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [16c796aa] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [16c796aa] Finished in 0.101 seconds with exit status 1 (failed).
+ DEBUG [7f3edbef] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [7f3edbef] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [7f3edbef] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/jeremydwayne/repo
+ DEBUG [56cf1b53] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [56cf1b53] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [56cf1b53] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [646b7ce7] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [646b7ce7] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [646b7ce7] Finished in 0.099 seconds with exit status 0 (successful).
+  INFO [c2051e8f] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [c2051e8f] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c2051e8f] 	Fetching origin
+ DEBUG [c2051e8f] 	
+  INFO [c2051e8f] Finished in 0.579 seconds with exit status 0 (successful).
+ DEBUG [96c37a85] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [96c37a85] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [96c37a85] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [6d7a4303] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230013 as deploy@45.76.23.120
+ DEBUG [6d7a4303] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230013 )
+  INFO [6d7a4303] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [cf9e37d7] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230013 as deploy@45.76.23.120
+ DEBUG [cf9e37d7] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230013 )
+  INFO [cf9e37d7] Finished in 0.995 seconds with exit status 0 (successful).
+ DEBUG [ece57fa9] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [ece57fa9] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [ece57fa9] Finished in 0.080 seconds with exit status 0 (successful).
+ DEBUG [daa6e459] Running /usr/bin/env git rev-list --max-count=1 master as deploy@45.76.23.120
+ DEBUG [daa6e459] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [daa6e459] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [daa6e459] 	
+ DEBUG [daa6e459] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [d81fcc38] Running if test ! -d /var/www/jeremydwayne/releases/20170224230013; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230013'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [d81fcc38] Command: if test ! -d /var/www/jeremydwayne/releases/20170224230013; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230013'" 1>&2; false; fi
+ DEBUG [d81fcc38] Finished in 0.087 seconds with exit status 0 (successful).
+  INFO [51a31f1a] Running /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION as deploy@45.76.23.120
+ DEBUG [51a31f1a] Command: cd /var/www/jeremydwayne/releases/20170224230013 && /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION
+  INFO [51a31f1a] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [5326d97c] Running /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230013 /var/www/jeremydwayne/releases/current as deploy@45.76.23.120
+ DEBUG [5326d97c] Command: /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230013 /var/www/jeremydwayne/releases/current
+  INFO [5326d97c] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO [6ffc4c23] Running /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne as deploy@45.76.23.120
+ DEBUG [6ffc4c23] Command: /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne
+ DEBUG [6ffc4c23] 	mv: 
+ DEBUG [6ffc4c23] 	cannot overwrite directory '/var/www/jeremydwayne/current' with non-directory
+ DEBUG [6ffc4c23] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 17:01:20 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [905c212c] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [905c212c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [905c212c] Finished in 0.669 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [cf38ee11] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [cf38ee11] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [cf38ee11] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO [d86b83e8] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [d86b83e8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [d86b83e8] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [d86b83e8] 		HEAD
+  INFO [d86b83e8] Finished in 1.073 seconds with exit status 0 (successful).
+  INFO [786c35e9] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [786c35e9] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [786c35e9] Finished in 0.085 seconds with exit status 0 (successful).
+ DEBUG [2c8aded4] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [2c8aded4] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [2c8aded4] Finished in 0.078 seconds with exit status 0 (successful).
+ DEBUG [84086708] Running /usr/bin/env cat /var/www/jeremydwayne/current/REVISION 2>/dev/null as deploy@45.76.23.120
+ DEBUG [84086708] Command: /usr/bin/env cat /var/www/jeremydwayne/current/REVISION 2>/dev/null
+ DEBUG [84086708] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [84086708] 	
+ DEBUG [84086708] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [66a3659d] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [66a3659d] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [66a3659d] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/jeremydwayne/repo
+ DEBUG [f2f05d1a] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [f2f05d1a] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [f2f05d1a] Finished in 0.097 seconds with exit status 0 (successful).
+  INFO [c274e68e] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [c274e68e] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [c274e68e] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [9a77bd18] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [9a77bd18] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [9a77bd18] 	Fetching origin
+ DEBUG [9a77bd18] 	
+  INFO [9a77bd18] Finished in 0.890 seconds with exit status 0 (successful).
+ DEBUG [0ec52472] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [0ec52472] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [0ec52472] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [817f3636] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230124 as deploy@45.76.23.120
+ DEBUG [817f3636] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230124 )
+  INFO [817f3636] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO [ba6cf564] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230124 as deploy@45.76.23.120
+ DEBUG [ba6cf564] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230124 )
+  INFO [ba6cf564] Finished in 0.749 seconds with exit status 0 (successful).
+ DEBUG [51404bea] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [51404bea] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [51404bea] Finished in 0.083 seconds with exit status 0 (successful).
+ DEBUG [16393d6e] Running /usr/bin/env git rev-list --max-count=1 master as deploy@45.76.23.120
+ DEBUG [16393d6e] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [16393d6e] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [16393d6e] 	
+ DEBUG [16393d6e] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [4b320125] Running if test ! -d /var/www/jeremydwayne/releases/20170224230124; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230124'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [4b320125] Command: if test ! -d /var/www/jeremydwayne/releases/20170224230124; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230124'" 1>&2; false; fi
+ DEBUG [4b320125] Finished in 0.086 seconds with exit status 0 (successful).
+  INFO [c696d238] Running /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION as deploy@45.76.23.120
+ DEBUG [c696d238] Command: cd /var/www/jeremydwayne/releases/20170224230124 && /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION
+  INFO [c696d238] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [dc207f50] Running /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230124 /var/www/jeremydwayne/releases/current as deploy@45.76.23.120
+ DEBUG [dc207f50] Command: /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230124 /var/www/jeremydwayne/releases/current
+  INFO [dc207f50] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [b184055b] Running /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne as deploy@45.76.23.120
+ DEBUG [b184055b] Command: /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne
+ DEBUG [b184055b] 	mv: 
+ DEBUG [b184055b] 	cannot move '/var/www/jeremydwayne/releases/current' to '/var/www/jeremydwayne/current'
+ DEBUG [b184055b] 	: Permission denied
+ DEBUG [b184055b] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 17:02:04 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [0a67cf0b] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [0a67cf0b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [0a67cf0b] Finished in 0.584 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [dd1afa53] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [dd1afa53] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [dd1afa53] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [af0bcc03] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [af0bcc03] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [af0bcc03] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [af0bcc03] 		
+ DEBUG [af0bcc03] 	HEAD
+ DEBUG [af0bcc03] 	
+  INFO [af0bcc03] Finished in 1.098 seconds with exit status 0 (successful).
+  INFO [7bc4bfbe] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [7bc4bfbe] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [7bc4bfbe] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [fed059a7] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [fed059a7] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [fed059a7] Finished in 0.078 seconds with exit status 1 (failed).
+ DEBUG [25ad1be1] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [25ad1be1] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [25ad1be1] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/jeremydwayne/repo
+ DEBUG [a470dab7] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [a470dab7] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [a470dab7] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [88fba037] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [88fba037] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [88fba037] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [2ef7bd1e] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [2ef7bd1e] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [2ef7bd1e] 	Fetching origin
+ DEBUG [2ef7bd1e] 	
+  INFO [2ef7bd1e] Finished in 0.625 seconds with exit status 0 (successful).
+ DEBUG [34801497] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [34801497] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [34801497] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [bf603173] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230207 as deploy@45.76.23.120
+ DEBUG [bf603173] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230207 )
+  INFO [bf603173] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [ccb530e8] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230207 as deploy@45.76.23.120
+ DEBUG [ccb530e8] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230207 )
+  INFO [ccb530e8] Finished in 0.757 seconds with exit status 0 (successful).
+ DEBUG [7c3839bb] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [7c3839bb] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [7c3839bb] Finished in 0.083 seconds with exit status 0 (successful).
+ DEBUG [275c6cef] Running /usr/bin/env git rev-list --max-count=1 master as deploy@45.76.23.120
+ DEBUG [275c6cef] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [275c6cef] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [275c6cef] 	
+ DEBUG [275c6cef] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [4c798304] Running if test ! -d /var/www/jeremydwayne/releases/20170224230207; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230207'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [4c798304] Command: if test ! -d /var/www/jeremydwayne/releases/20170224230207; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230207'" 1>&2; false; fi
+ DEBUG [4c798304] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [13980b9d] Running /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION as deploy@45.76.23.120
+ DEBUG [13980b9d] Command: cd /var/www/jeremydwayne/releases/20170224230207 && /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION
+  INFO [13980b9d] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [a5d96957] Running /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230207 /var/www/jeremydwayne/releases/current as deploy@45.76.23.120
+ DEBUG [a5d96957] Command: /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230207 /var/www/jeremydwayne/releases/current
+  INFO [a5d96957] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [1450a427] Running /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne as deploy@45.76.23.120
+ DEBUG [1450a427] Command: /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne
+ DEBUG [1450a427] 	mv: 
+ DEBUG [1450a427] 	cannot move '/var/www/jeremydwayne/releases/current' to '/var/www/jeremydwayne/current'
+ DEBUG [1450a427] 	: Permission denied
+ DEBUG [1450a427] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 17:03:26 -0600 cap production deploy:setup
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 17:04:32 -0600 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [d1fabbc4] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [d1fabbc4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d1fabbc4] Finished in 0.583 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [663758f4] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [663758f4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [663758f4] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [8d856c5b] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [8d856c5b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [8d856c5b] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [8d856c5b] 		HEAD
+  INFO [8d856c5b] Finished in 1.144 seconds with exit status 0 (successful).
+  INFO [e966649a] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [e966649a] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+ DEBUG [e966649a] 	mkdir: 
+ DEBUG [e966649a] 	cannot create directory ‘/var/www/jeremydwayne/shared’
+ DEBUG [e966649a] 	: Permission denied
+ DEBUG [e966649a] 	
+ DEBUG [e966649a] 	mkdir: 
+ DEBUG [e966649a] 	cannot create directory ‘/var/www/jeremydwayne/releases’
+ DEBUG [e966649a] 	: Permission denied
+ DEBUG [e966649a] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 17:05:16 -0600 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [8b124899] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [8b124899] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8b124899] Finished in 0.610 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [6805e22a] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [6805e22a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [6805e22a] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [cc0c3956] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [cc0c3956] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [cc0c3956] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [cc0c3956] 		
+ DEBUG [cc0c3956] 	HEAD
+ DEBUG [cc0c3956] 	
+  INFO [cc0c3956] Finished in 1.245 seconds with exit status 0 (successful).
+  INFO [b0b5392c] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [b0b5392c] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [b0b5392c] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 17:05:27 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cd05c89d] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [cd05c89d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cd05c89d] Finished in 0.591 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [b4b1a068] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [b4b1a068] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [b4b1a068] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [4c47367e] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [4c47367e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [4c47367e] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [4c47367e] 		
+ DEBUG [4c47367e] 	HEAD
+  INFO [4c47367e] Finished in 1.133 seconds with exit status 0 (successful).
+  INFO [02b3300c] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [02b3300c] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [02b3300c] Finished in 0.086 seconds with exit status 0 (successful).
+ DEBUG [d9ec343f] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [d9ec343f] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [d9ec343f] Finished in 0.084 seconds with exit status 1 (failed).
+ DEBUG [c626aa9a] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [c626aa9a] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [c626aa9a] Finished in 0.087 seconds with exit status 1 (failed).
+ DEBUG [c32c5575] Running if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [c32c5575] Command: if test ! -d /var/www/jeremydwayne; then echo "Directory does not exist '/var/www/jeremydwayne'" 1>&2; false; fi
+ DEBUG [c32c5575] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [ea5355eb] Running /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo as deploy@45.76.23.120
+ DEBUG [ea5355eb] Command: cd /var/www/jeremydwayne && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git clone --mirror git@github.com:jeremydwayne/jekyllblogtest.git /var/www/jeremydwayne/repo )
+ DEBUG [ea5355eb] 	Cloning into bare repository '/var/www/jeremydwayne/repo'...
+ DEBUG [ea5355eb] 	
+ DEBUG [ea5355eb] 	remote: Counting objects: 6604, done.[K
+ DEBUG [ea5355eb] 	
+ DEBUG [ea5355eb] 	remote: Compressing objects:   0% (1/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:   1% (46/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:   2% (91/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing 
+ DEBUG [ea5355eb] 	objects:   3% (137/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:   4% (182/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:   5% (227/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:
+ DEBUG [ea5355eb] 	   6% (273/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:   7% (318/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:   8% (364/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:   9% (4
+ DEBUG [ea5355eb] 	09/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  10% (454/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  11% (500/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  12% (545/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  13% (591/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  14% (636/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  15% (681/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  16% (727/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  17% (772/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  18% (818/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  19% (863/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  20% (908/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  21% (954/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  22% (999/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  23% (1045/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  24% (1090/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  25% (1135/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  26% (1181/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  27% (1226/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  28% (1272/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  29% (1317/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  30% (1362/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  31% (1408/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  32% (1453/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  33% (1499/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  34% (1544/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  35% (1589/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  36% (1635/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  37% (1680/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  38% (1726/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  39% (1771/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  40% (1816/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  41% (1862/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  42% (1907/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  43% (1953/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  44% (1998/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  45% (2043/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  46% (2089/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  47% (2134/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  48% (2180/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  49% (2225/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  50% (2270/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  51% (2316/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  52% (2361/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  53% (2407/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  54% (2452/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  55% (2497/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  56% (2543/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  57% (2588/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  58% (2634/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  59% (2679/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  60% (2724/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  61% (2770/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  62% (2815/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  63% (2861/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  64% (2906/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  65% (2951/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  66% (2997/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  67% (3042/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  68% (3088/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  69% (3133/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  70% (3178/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  71% (3224/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  72% (3269/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  73% (3315/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  74% (3360/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  75% (3405/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  76% (3451/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  77% (3496/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  78% (3542/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  79% (3587/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  80% (3632/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  81% (3678/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  82% (3723/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  83% (3769/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  84% (3814/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  85% (3859/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  86% (3905/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  87% (3950/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  88% (3996/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  89% (4041/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  90% (4086/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  91% (4132/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  92% (4177/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  93% (4223/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  94% (4268/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  95% (4313/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  96% (4359/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  97% (4404/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  98% (4450/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects:  99% (4495/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects: 100% (4540/4540)   [K
+ DEBUG [ea5355eb] 	remote: Compressing objects: 100% (4540/4540), done.[K
+ DEBUG [ea5355eb] 	
+ DEBUG [ea5355eb] 	Receiving objects:   0% (1/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   1% (67/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   2% (133/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   3% (199/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   4% (265/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   5% (331/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   6% (397/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   7% (463/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   8% (529/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:   9% (595/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  10% (661/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  11% (727/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  12% (793/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  13% (859/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  14% (925/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  15% (991/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  16% (1057/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  17% (1123/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  18% (1189/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  19% (1255/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  20% (1321/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  21% (1387/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  22% (1453/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  23% (1519/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  24% (1585/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  25% (1651/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  26% (1718/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  27% (1784/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  28% (1850/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  29% (1916/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  30% (1982/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  31% (2048/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  32% (2114/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  33% (2180/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  34% (2246/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  35% (2312/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  36% (2378/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  37% (2444/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  38% (2510/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  39% (2576/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  40% (2642/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  41% (2708/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  42% (2774/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  43% (2840/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  44% (2906/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  45% (2972/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  46% (3038/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  47% (3104/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  48% (3170/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  49% (3236/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  50% (3302/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  51% (3369/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  52% (3435/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  53% (3501/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  54% (3567/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  55% (3633/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  56% (3699/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  57% (3765/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  58% (3831/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  59% (3897/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  60% (3963/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  61% (4029/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  62% (4095/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  63% (4161/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  64% (4227/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  65% (4293/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  66% (4359/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  67% (4425/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  68% (4491/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  69% (4557/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  70% (4623/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  71% (4689/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  72% (4755/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  73% (4821/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  74% (4887/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  75% (4953/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  76% (5020/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  77% (5086/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  78% (5152/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  79% (5218/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  80% (5284/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  81% (5350/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  82% (5416/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  83% (5482/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  84% (5548/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  85% (5614/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  86% (5680/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  87% (5746/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  88% (5812/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  89% (5878/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  90% (5944/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  91% (6010/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  92% (6076/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  93% (6142/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  94% (6208/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  95% (6274/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  96% (6340/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  97% (6406/6604)   
+ DEBUG [ea5355eb] 	Receiving objects:  98% (6472/6604)   
+ DEBUG [ea5355eb] 	remote: Total 6604 (delta 1635), reused 6604 (delta 1635), pack-reused 0[K
+ DEBUG [ea5355eb] 	
+ DEBUG [ea5355eb] 	Receiving objects:  99% (6538/6604)   
+ DEBUG [ea5355eb] 	Receiving objects: 100% (6604/6604)   
+ DEBUG [ea5355eb] 	Receiving objects: 100% (6604/6604), 6.80 MiB | 0 bytes/s, done.
+ DEBUG [ea5355eb] 	
+ DEBUG [ea5355eb] 	Resolving deltas:   0% (0/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:   1% (26/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:   6% (103/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:   7% (127/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:   9% (151/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  10% (164/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  11% (180/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  12% (198/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  13% (215/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  14% (239/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  15% (251/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  16% (270/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  17% (280/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  18% (303/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  19% (312/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  20% (340/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  22% (375/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  23% (384/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  25% (417/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  27% (447/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  28% (462/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  30% (498/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  31% (513/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  32% (524/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  33% (552/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  34% (564/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  35% (573/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  36% (595/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  37% (606/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  38% (622/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  39% (641/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  40% (654/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  41% (671/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  42% (687/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  43% (705/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  44% (725/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  45% (736/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  46% (753/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  47% (769/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  48% (785/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  49% (802/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  50% (818/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  51% (834/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  52% (852/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  53% (867/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  54% (883/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  55% (900/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  56% (916/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  57% (933/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  58% (949/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  59% (965/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  60% (982/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  61% (998/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  62% (1014/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  63% (1031/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  64% (1047/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  65% (1064/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  66% (1080/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  67% (1096/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  68% (1112/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  69% (1129/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  70% (1145/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  71% (1161/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  72% (1179/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  73% (1196/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  74% (1212/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  75% (1227/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  76% (1244/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  77% (1259/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  78% (1276/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  79% (1292/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  80% (1308/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  81% (1325/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  82% (1348/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  83% (1370/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  84% (1377/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  85% (1393/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  86% (1408/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  87% (1423/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  88% (1439/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  89% (1457/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  90% (1472/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  91% (1489/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  92% (1507/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  93% (1521/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  94% (1537/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  95% (1554/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  96% (1570/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  97% (1586/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  98% (1603/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas:  99% (1619/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas: 100% (1635/1635)   
+ DEBUG [ea5355eb] 	Resolving deltas: 100% (1635/1635), done.
+ DEBUG [ea5355eb] 	
+ DEBUG [ea5355eb] 	Checking connectivity... 
+ DEBUG [ea5355eb] 	done.
+ DEBUG [ea5355eb] 	
+  INFO [ea5355eb] Finished in 1.192 seconds with exit status 0 (successful).
+ DEBUG [999dc3bf] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [999dc3bf] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [999dc3bf] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [1906530c] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [1906530c] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [1906530c] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [837f97d3] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [837f97d3] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [837f97d3] 	Fetching origin
+ DEBUG [837f97d3] 	
+  INFO [837f97d3] Finished in 0.689 seconds with exit status 0 (successful).
+ DEBUG [55497e2b] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [55497e2b] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [55497e2b] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [2988c242] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230532 as deploy@45.76.23.120
+ DEBUG [2988c242] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230532 )
+  INFO [2988c242] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [54317413] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230532 as deploy@45.76.23.120
+ DEBUG [54317413] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230532 )
+  INFO [54317413] Finished in 0.677 seconds with exit status 0 (successful).
+ DEBUG [13d064ff] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [13d064ff] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [13d064ff] Finished in 0.083 seconds with exit status 0 (successful).
+ DEBUG [b18d6ad4] Running /usr/bin/env git rev-list --max-count=1 master as deploy@45.76.23.120
+ DEBUG [b18d6ad4] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b18d6ad4] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [b18d6ad4] 	
+ DEBUG [b18d6ad4] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [e515f434] Running if test ! -d /var/www/jeremydwayne/releases/20170224230532; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230532'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [e515f434] Command: if test ! -d /var/www/jeremydwayne/releases/20170224230532; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230532'" 1>&2; false; fi
+ DEBUG [e515f434] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [e585988b] Running /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION as deploy@45.76.23.120
+ DEBUG [e585988b] Command: cd /var/www/jeremydwayne/releases/20170224230532 && /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION
+  INFO [e585988b] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [e858668e] Running /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230532 /var/www/jeremydwayne/releases/current as deploy@45.76.23.120
+ DEBUG [e858668e] Command: /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230532 /var/www/jeremydwayne/releases/current
+  INFO [e858668e] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [665703c1] Running /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne as deploy@45.76.23.120
+ DEBUG [665703c1] Command: /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne
+  INFO [665703c1] Finished in 0.089 seconds with exit status 0 (successful).
+ DEBUG [46ea100f] Running /usr/bin/env ls -x /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [46ea100f] Command: /usr/bin/env ls -x /var/www/jeremydwayne/releases
+ DEBUG [46ea100f] 	20170224230532
+ DEBUG [46ea100f] 	
+ DEBUG [46ea100f] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 17:06:06 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [1a05b1e2] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [1a05b1e2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1a05b1e2] Finished in 0.576 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [0537590f] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [0537590f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [0537590f] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [3cc92419] Running /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD as deploy@45.76.23.120
+ DEBUG [3cc92419] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote git@github.com:jeremydwayne/jekyllblogtest.git HEAD )
+ DEBUG [3cc92419] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [3cc92419] 		
+ DEBUG [3cc92419] 	HEAD
+ DEBUG [3cc92419] 	
+  INFO [3cc92419] Finished in 1.119 seconds with exit status 0 (successful).
+  INFO [9a4d424e] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [9a4d424e] Command: /usr/bin/env mkdir -p /var/www/jeremydwayne/shared /var/www/jeremydwayne/releases
+  INFO [9a4d424e] Finished in 0.094 seconds with exit status 0 (successful).
+ DEBUG [6a22df20] Running [ -f /var/www/jeremydwayne/current/REVISION ] as deploy@45.76.23.120
+ DEBUG [6a22df20] Command: [ -f /var/www/jeremydwayne/current/REVISION ]
+ DEBUG [6a22df20] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [26daf708] Running /usr/bin/env cat /var/www/jeremydwayne/current/REVISION 2>/dev/null as deploy@45.76.23.120
+ DEBUG [26daf708] Command: /usr/bin/env cat /var/www/jeremydwayne/current/REVISION 2>/dev/null
+ DEBUG [26daf708] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [26daf708] 	
+ DEBUG [26daf708] Finished in 0.105 seconds with exit status 0 (successful).
+ DEBUG [09fc936a] Running [ -f /var/www/jeremydwayne/repo/HEAD ] as deploy@45.76.23.120
+ DEBUG [09fc936a] Command: [ -f /var/www/jeremydwayne/repo/HEAD ]
+ DEBUG [09fc936a] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/jeremydwayne/repo
+ DEBUG [fc4e4319] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [fc4e4319] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [fc4e4319] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [a325b6a8] Running /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git as deploy@45.76.23.120
+ DEBUG [a325b6a8] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote set-url origin git@github.com:jeremydwayne/jekyllblogtest.git )
+  INFO [a325b6a8] Finished in 0.089 seconds with exit status 0 (successful).
+  INFO [760f33a7] Running /usr/bin/env git remote update --prune as deploy@45.76.23.120
+ DEBUG [760f33a7] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [760f33a7] 	Fetching origin
+ DEBUG [760f33a7] 	
+  INFO [760f33a7] Finished in 0.775 seconds with exit status 0 (successful).
+ DEBUG [7fb75f80] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [7fb75f80] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [7fb75f80] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [4ebc69ad] Running /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230610 as deploy@45.76.23.120
+ DEBUG [4ebc69ad] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env mkdir -p /var/www/jeremydwayne/releases/20170224230610 )
+  INFO [4ebc69ad] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [aef55e35] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230610 as deploy@45.76.23.120
+ DEBUG [aef55e35] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/jeremydwayne/releases/20170224230610 )
+  INFO [aef55e35] Finished in 0.728 seconds with exit status 0 (successful).
+ DEBUG [a1d29bf8] Running if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [a1d29bf8] Command: if test ! -d /var/www/jeremydwayne/repo; then echo "Directory does not exist '/var/www/jeremydwayne/repo'" 1>&2; false; fi
+ DEBUG [a1d29bf8] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [d72d1447] Running /usr/bin/env git rev-list --max-count=1 master as deploy@45.76.23.120
+ DEBUG [d72d1447] Command: cd /var/www/jeremydwayne/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [d72d1447] 	730bcd3531330884410605ddf3bbfd91f6b39a1f
+ DEBUG [d72d1447] 	
+ DEBUG [d72d1447] Finished in 0.087 seconds with exit status 0 (successful).
+ DEBUG [b59cde85] Running if test ! -d /var/www/jeremydwayne/releases/20170224230610; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230610'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [b59cde85] Command: if test ! -d /var/www/jeremydwayne/releases/20170224230610; then echo "Directory does not exist '/var/www/jeremydwayne/releases/20170224230610'" 1>&2; false; fi
+ DEBUG [b59cde85] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [88f3b5fe] Running /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION as deploy@45.76.23.120
+ DEBUG [88f3b5fe] Command: cd /var/www/jeremydwayne/releases/20170224230610 && /usr/bin/env echo "730bcd3531330884410605ddf3bbfd91f6b39a1f" >> REVISION
+  INFO [88f3b5fe] Finished in 0.094 seconds with exit status 0 (successful).
+  INFO [aacd0b99] Running /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230610 /var/www/jeremydwayne/releases/current as deploy@45.76.23.120
+ DEBUG [aacd0b99] Command: /usr/bin/env ln -s /var/www/jeremydwayne/releases/20170224230610 /var/www/jeremydwayne/releases/current
+  INFO [aacd0b99] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [d351a50a] Running /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne as deploy@45.76.23.120
+ DEBUG [d351a50a] Command: /usr/bin/env mv /var/www/jeremydwayne/releases/current /var/www/jeremydwayne
+  INFO [d351a50a] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [6a27cc66] Running /usr/bin/env ls -x /var/www/jeremydwayne/releases as deploy@45.76.23.120
+ DEBUG [6a27cc66] Command: /usr/bin/env ls -x /var/www/jeremydwayne/releases
+ DEBUG [6a27cc66] 	20170224230532
+ DEBUG [6a27cc66] 		
+ DEBUG [6a27cc66] 	20170224230610
+ DEBUG [6a27cc66] 	
+ DEBUG [6a27cc66] Finished in 0.082 seconds with exit status 0 (successful).
+ DEBUG [1a5af541] Running if test ! -d /var/www/jeremydwayne/releases; then echo "Directory does not exist '/var/www/jeremydwayne/releases'" 1>&2; false; fi as deploy@45.76.23.120
+ DEBUG [1a5af541] Command: if test ! -d /var/www/jeremydwayne/releases; then echo "Directory does not exist '/var/www/jeremydwayne/releases'" 1>&2; false; fi
+ DEBUG [1a5af541] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [c9cc6756] Running /usr/bin/env echo "Branch master (at 730bcd3531330884410605ddf3bbfd91f6b39a1f) deployed as release 20170224230610 by winterjd" >> /var/www/jeremydwayne/revisions.log as deploy@45.76.23.120
+ DEBUG [c9cc6756] Command: cd /var/www/jeremydwayne/releases && /usr/bin/env echo "Branch master (at 730bcd3531330884410605ddf3bbfd91f6b39a1f) deployed as release 20170224230610 by winterjd" >> /var/www/jeremydwayne/revisions.log
+  INFO [c9cc6756] Finished in 0.084 seconds with exit status 0 (successful).
