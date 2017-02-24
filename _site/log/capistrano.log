@@ -1,0 +1,143 @@
+# Logfile created on 2017-02-24 15:53:53 -0600 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 15:53:53 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a446ddaa] Running [ -d ~/.rvm ] as deploy@45.76.23.120
+ DEBUG [a446ddaa] Command: [ -d ~/.rvm ]
+ DEBUG [a446ddaa] Finished in 7.783 seconds with exit status 1 (failed).
+ DEBUG [dc68ba13] Running [ -d /usr/local/rvm ] as deploy@45.76.23.120
+ DEBUG [dc68ba13] Command: [ -d /usr/local/rvm ]
+ DEBUG [dc68ba13] Finished in 4.451 seconds with exit status 1 (failed).
+ DEBUG [46d92b46] Running ~/.rvm/bin/rvm version as deploy@45.76.23.120
+ DEBUG [46d92b46] Command: ~/.rvm/bin/rvm version
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 15:54:55 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [cb61cbc6] Running [ -d ~/.rvm ] as deploy@45.76.23.120
+ DEBUG [cb61cbc6] Command: [ -d ~/.rvm ]
+ DEBUG [cb61cbc6] Finished in 5.392 seconds with exit status 1 (failed).
+ DEBUG [2fddbb64] Running [ -d /usr/local/rvm ] as deploy@45.76.23.120
+ DEBUG [2fddbb64] Command: [ -d /usr/local/rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 15:55:47 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [50481a3b] Running [ -d ~/.rvm ] as deploy@45.76.23.120
+ DEBUG [50481a3b] Command: [ -d ~/.rvm ]
+ DEBUG [50481a3b] Finished in 6.632 seconds with exit status 1 (failed).
+ DEBUG [62a0e260] Running [ -d /usr/local/rvm ] as deploy@45.76.23.120
+ DEBUG [62a0e260] Command: [ -d /usr/local/rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 15:57:01 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [11f7ee9c] Running [ -d ~/.rvm ] as deploy@45.76.23.120
+ DEBUG [11f7ee9c] Command: [ -d ~/.rvm ]
+ DEBUG [11f7ee9c] Finished in 0.628 seconds with exit status 1 (failed).
+ DEBUG [942be2ad] Running [ -d /usr/local/rvm ] as deploy@45.76.23.120
+ DEBUG [942be2ad] Command: [ -d /usr/local/rvm ]
+ DEBUG [942be2ad] Finished in 0.597 seconds with exit status 1 (failed).
+ DEBUG [783ad65b] Running ~/.rvm/bin/rvm version as deploy@45.76.23.120
+ DEBUG [783ad65b] Command: ~/.rvm/bin/rvm version
+ DEBUG [783ad65b] 	bash: /home/deploy/.rvm/bin/rvm: No such file or directory
+ DEBUG [783ad65b] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 15:57:27 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [df755192] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [df755192] Command: /usr/bin/env mkdir -p /tmp
+  INFO [df755192] Finished in 0.684 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [6573efe5] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [6573efe5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [6573efe5] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [e5ba35d5] Running /usr/bin/env git ls-remote _site HEAD as deploy@45.76.23.120
+ DEBUG [e5ba35d5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote _site HEAD )
+ DEBUG [e5ba35d5] 	fatal: '_site' does not appear to be a git repository
+ DEBUG [e5ba35d5] 	
+ DEBUG [e5ba35d5] 	fatal: Could not read from remote repository.
+ DEBUG [e5ba35d5] 	
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 15:58:33 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [678e0dd2] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [678e0dd2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [678e0dd2] Finished in 0.676 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [e9b229d8] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [e9b229d8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [e9b229d8] Finished in 0.095 seconds with exit status 0 (successful).
+  INFO [05537b5a] Running /usr/bin/env git ls-remote  HEAD as deploy@45.76.23.120
+ DEBUG [05537b5a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [05537b5a] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [05537b5a] 	
+ DEBUG [05537b5a] 	fatal: Could not read from remote repository.
+ DEBUG [05537b5a] 	
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 15:59:03 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [da818061] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [da818061] Command: /usr/bin/env mkdir -p /tmp
+  INFO [da818061] Finished in 0.614 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [c14d3162] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [c14d3162] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [c14d3162] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [783ada26] Running /usr/bin/env git ls-remote  HEAD as deploy@45.76.23.120
+ DEBUG [783ada26] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [783ada26] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [783ada26] 	
+ DEBUG [783ada26] 	fatal: Could not read from remote repository.
+ DEBUG [783ada26] 	
+
+Please make sure you have the correct access rights
+ DEBUG [783ada26] 	and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 15:59:20 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [471e2dca] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [471e2dca] Command: /usr/bin/env mkdir -p /tmp
+  INFO [471e2dca] Finished in 0.645 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [730070bd] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [730070bd] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [730070bd] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [b10f3d8a] Running /usr/bin/env git ls-remote  HEAD as deploy@45.76.23.120
+ DEBUG [b10f3d8a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [b10f3d8a] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [b10f3d8a] 	
+ DEBUG [b10f3d8a] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:01:15 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b5f756d0] Running /usr/bin/env mkdir -p /tmp as deploy@45.76.23.120
+ DEBUG [b5f756d0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b5f756d0] Finished in 0.656 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 0.0%
+  INFO Uploading /tmp/git-ssh-jeremydwayne-production-winterjd.sh 100.0%
+  INFO [6396baec] Running /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh as deploy@45.76.23.120
+ DEBUG [6396baec] Command: /usr/bin/env chmod 700 /tmp/git-ssh-jeremydwayne-production-winterjd.sh
+  INFO [6396baec] Finished in 0.081 seconds with exit status 0 (successful).
+  INFO [80aa4b3c] Running /usr/bin/env git ls-remote  HEAD as deploy@45.76.23.120
+ DEBUG [80aa4b3c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-jeremydwayne-production-winterjd.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [80aa4b3c] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [80aa4b3c] 	
+ DEBUG [80aa4b3c] 	fatal: Could not read from remote repository.
+ DEBUG [80aa4b3c] 	
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-02-24 16:02:05 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
